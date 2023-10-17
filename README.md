@@ -1,6 +1,8 @@
 # Szepes Nóra's base project
 
 Base project setup with:
+- Webpack
+- Typescript
 - React 18
 - ESLint & Prettier
 - Tailwind
