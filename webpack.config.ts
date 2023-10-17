@@ -1,7 +1,8 @@
-const path = require("path")
-const CopyPlugin = require("copy-webpack-plugin")
+import path from "path"
+import CopyPlugin from "copy-webpack-plugin"
+import { Configuration } from "webpack"
 
-module.exports = () => ({
+module.exports = (): Configuration => ({
     entry: "./src/index.tsx",
     output: {
         path: path.resolve(__dirname, "dist"),
@@ -26,6 +27,6 @@ module.exports = () => ({
     plugins: [
         new CopyPlugin({
             patterns: [{ from: "public" }],
-          }),
+        }),
     ],
 })
