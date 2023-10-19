@@ -4,6 +4,7 @@ Base project setup with:
 - Webpack
 - Typescript
 - React 18
+- Redux Toolkit
 - ESLint & Prettier
 - Tailwind
 - SASS
