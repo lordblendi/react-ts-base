@@ -1,7 +1,3 @@
-// THIS ONLY EFFECTS THE EDITOR
-// FOR CONSOLE LOOK IN THE PACKAGE.JSON
-// WE HAD TO EXTEND THE DEFAULT CREATE-REACT-APP ESLINT CONFIG THERE
-
 module.exports = {
     root: true,
     parser: "@typescript-eslint/parser", // Specifies the ESLint parser
