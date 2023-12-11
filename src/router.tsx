@@ -1,8 +1,8 @@
 import React from "react"
 import { createHashRouter } from "react-router-dom"
 
-import App from "./pages/app/app"
-import HelloWorld from "./pages/helloworld/helloworld"
+import App from "./pages/app/App"
+import HelloWorld from "./pages/helloworld/HelloWorld"
 
 export const router = createHashRouter([
     {
