@@ -4,10 +4,14 @@ import { createRoot } from "react-dom/client"
 import { RouterProvider } from "react-router-dom"
 
 import { store } from "./store"
+import makeServer from "./mirage/server"
 
 import "./style/index.scss"
 
 import router from "./router"
+
+// start Mirage server
+makeServer()
 
 const rootElement = document.getElementById("root")
 

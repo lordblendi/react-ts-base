@@ -10,8 +10,8 @@ export const router = createHashRouter([
         element: <App />,
     },
     {
-        element: <HelloWorld />,
         path: "/hello",
+        element: <HelloWorld />,
     },
 ])
 
