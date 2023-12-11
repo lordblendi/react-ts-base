@@ -12,6 +12,7 @@
     "lint-fix": "yarn eslint --ext .js,.ts,.tsx . --fix"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
     "@types/copy-webpack-plugin": "^10.1.0",
     "@types/node": "^20.8.6",
     "@types/react": "^18.2.28",
