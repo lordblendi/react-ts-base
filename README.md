@@ -8,6 +8,8 @@ Base project setup with:
 - ESLint & Prettier
 - Tailwind
 - SASS
+- Mirage
+- React Router
 
 ## Installation
 
