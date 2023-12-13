@@ -10,6 +10,7 @@ Base project setup with:
 - SASS
 - Mirage
 - React Router
+- FontAwesome
 
 ## Installation
 

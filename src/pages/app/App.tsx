@@ -1,7 +1,9 @@
 import React from "react"
+import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons"
 
 import Counter from "../../components/counter/components/Counter"
-import { Link } from "react-router-dom"
 
 export const App = (): JSX.Element => {
     return (
@@ -9,7 +11,10 @@ export const App = (): JSX.Element => {
             <h1 className="tw-bg-yellow-200">
                 <Link to={"hello"}>Hello!!</Link>
             </h1>
-            <h2>Welcome to your First React App..!</h2>
+            <h2>
+                Welcome to your First React App..! Example icon:{" "}
+                <FontAwesomeIcon icon={faRightFromBracket} />
+            </h2>
             <Counter />
         </div>
     )
